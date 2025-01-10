@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Advisory Firm</title>
+   
+<style>
+body {
+    font-family: sans-serif ;
+    font-size:32px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+/* Add JavaScript for slider functionality */
+
+.about,
+.services,
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+/* Add more CSS rules for styling as needed */
+</style>
+
+</head>
+<body>
+
+    <header>
+        <img src="igap2.jpeg" alt="Your Logo" class="logo"> 
+    </header>
+
+    <section class="banner">
+        <div class="slider-container">
+            <div class="slide">
+                <img src="igap2.jpeg" alt="Building 1">
+            </div>
+            <div class="slide">
+                <img src="igap2.jpeg" alt="Graph 2">
+            </div>
+            <div class="slide">
+                <img src="igap2.jpeg" alt="Building 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p style="font-size:25px;">Brief description of your advisory firm.</p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Management Advisory</li>
+            <li>Financial Advisory</li>
+            <li>Equity Capital Advisory</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: your_email@example.com</p>
+        <p>Phone: +1 234 567 890</p>
+        <a href="https://wa.me/your_whatsapp_number" target="_blank">
+            <img src="whatsapp_icon.png" alt="WhatsApp">
+        </a>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Advisory Firm</p>
+        <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
