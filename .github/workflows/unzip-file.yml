@@ -1,0 +1,14 @@
+name: Unzip File
+
+on: [push]
+
+jobs:
+  unzip-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Unzip secure-connect-jsonmsgtest.zip
+      run: unzip path/to/secure-connect-database_name.zip -d path/to/destination
