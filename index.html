@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glacier Ltd- Trading and Logistic Company Operates Globally.</title>
     <link rel="icon" href="glacierlogo.jpg">
-
+<script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('title').textContent = data.title;
+                document.getElementById('message').textContent = data.message;
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    });
+</script>
+</script>
+</script>
    
 <style>
 body {
@@ -100,7 +113,10 @@ footer {
         
        
     </section>
-
+<div id="json-data">
+    <h1 id="title"></h1>
+    <p id="message"></p>
+</div>
     <footer>
         <p>&copy; 2025 Glacier Shipping Ltd UK</p>
         
