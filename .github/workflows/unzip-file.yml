@@ -11,4 +11,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Unzip secure-connect-jsonmsgtest.zip
-      run: unzip secure-connect-jsonmsgtest.zip -d ./secure-connect
+      run: unzip testpage/.github/workflows/secure-connect-jsonmsgtest.zip -d ./secure-connect
