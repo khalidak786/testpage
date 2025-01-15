@@ -12,3 +12,6 @@ jobs:
 
     - name: Unzip secure-connect-jsonmsgtest.zip
       run: unzip ./secure-connect-jsonmsgtest.zip -d ./secure-connect
+
+    - name: List files in destination folder
+      run: ls -l ./secure-connect
