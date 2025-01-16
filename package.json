@@ -1,0 +1,14 @@
+{
+  "name": "testpage",
+  "version": "1.0.0",
+  "description": "Testing a page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cassandra-driver": "^4.7.2"
+  },
+  "author": "khalidak786",
+  "license": "ISC"
+}
